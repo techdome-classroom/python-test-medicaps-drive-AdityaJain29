@@ -17,8 +17,6 @@ class Solution(object):
                 return False
         
         return len(stack) == 0
-
-# Example usage:
 solution = Solution()
 print(solution.isValid("()"))  # Output: True
 print(solution.isValid("()[]{}"))  # Output: True
