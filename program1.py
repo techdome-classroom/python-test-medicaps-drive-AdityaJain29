@@ -18,4 +18,6 @@ class Solution(object):
         
         return len(stack) == 0
     solution = Solution()
-    
+        self.assertTrue(self.solution.isValid("()"))
+        self.assertTrue(self.solution.isValid("()[]{}"))
+        self.assertTrue(self.solution.isValid("{[()]}"))
