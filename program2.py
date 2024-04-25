@@ -27,4 +27,4 @@ class Solution(object):
         
         return total
 solution = Solution()
-print(solution.romanToInt("X"))  # Output: 3
+print(solution.romanToInt("MMMCMXCIX"))  # Output: 3
