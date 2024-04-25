@@ -18,5 +18,5 @@ class Solution(object):
                 return False
         
         return len(stack) == 0
-    print(solution.isValid("()[]{}"))
+print(solution.isValid("()[]{}"))
         pass
