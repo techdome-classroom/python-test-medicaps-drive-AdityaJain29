@@ -26,4 +26,3 @@ class Solution(object):
             prev_value = value
         
         return total
-        
