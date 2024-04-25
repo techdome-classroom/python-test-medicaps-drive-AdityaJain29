@@ -18,8 +18,3 @@ class Solution(object):
         
         return len(stack) == 0
 solution = Solution()
-print(solution.isValid("()"))  # Output: True
-print(solution.isValid("()[]{}"))  # Output: True
-print(solution.isValid("(]"))  # Output: False
-print(solution.isValid("([)]"))  # Output: False
-print(solution.isValid("{[]}"))  # Output: True
