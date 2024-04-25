@@ -26,3 +26,5 @@ class Solution(object):
             prev_value = value
         
         return total
+solution = Solution()
+print(solution.romanToInt("III"))  # Output: 3
