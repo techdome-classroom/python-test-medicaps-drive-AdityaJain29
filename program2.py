@@ -26,5 +26,4 @@ class Solution(object):
             prev_value = value
         
         return total
-solution = Solution()
-print(solution.romanToInt(""))  # Output: 3
+
